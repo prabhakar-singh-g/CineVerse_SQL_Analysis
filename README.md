@@ -1,5 +1,11 @@
 # 🎬 CineVerse: End-to-End SQL Data Analysis Project
 
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+![MySQL](https://img.shields.io/badge/Database-MySQL-blue)
+![SQL](https://img.shields.io/badge/Language-SQL-orange)
+![Project Level](https://img.shields.io/badge/Difficulty-Beginner--to--Advanced-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 **CineVerse** is a simulated movie streaming platform designed to showcase practical SQL data analysis skills. This project covers everything from database schema design to complex business queries, providing actionable insights into user behavior, content performance, and revenue generation.
 
 ---
