@@ -1,4 +1,4 @@
-# 🎬 CineVerse: End-to-End SQL Data Analysis Project
+# CineVerse
 
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-blue)
