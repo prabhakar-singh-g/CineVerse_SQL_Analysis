@@ -1,4 +1,4 @@
-# CineVerse
+# CineVerse: SQL-Based Movie Streaming Analysis
 
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-blue)
@@ -6,18 +6,18 @@
 ![Project Level](https://img.shields.io/badge/Difficulty-Beginner--to--Advanced-yellow)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-**CineVerse** is a simulated movie streaming platform designed to showcase practical SQL data analysis skills. This project covers everything from database schema design to complex business queries, providing actionable insights into user behavior, content performance, and revenue generation.
+**CineVerse** is a simulated movie streaming platform designed to demonstrate practical SQL-based data analysis. The project ranges from database design to advanced business queries, generating insights around user activity, content trends, and revenue patterns.
 
 ---
 
 ## 📊 Project Overview
 
-This project simulates the backend of a streaming service using MySQL and includes:
+This project replicates the backend of an OTT platform using MySQL and includes:
 
-- 🎯 A fully normalized relational database with 5 interrelated tables  
-- 🧠 12 well-crafted SQL queries ranging from basic to advanced  
-- 📈 Key insights on revenue, user engagement, and movie performance  
-- 🔍 Emphasis on writing clean, efficient, and business-relevant SQL  
+- 🎯 A fully normalized relational schema with 5 connected tables  
+- 🧠 12 thoughtfully constructed SQL queries (basic to advanced)  
+- 📈 Insights into revenue, content performance, and user behavior  
+- 🔍 Strong focus on clean, business-relevant query writing  
 
 ---
 
@@ -25,20 +25,20 @@ This project simulates the backend of a streaming service using MySQL and includ
 
 | Table          | Description                              |
 | -------------- | ---------------------------------------- |
-| `User`         | User profiles and registration details  |
-| `Movie`        | Movie metadata (genre, rating, etc.)    |
-| `WatchHistory` | User watch activity records              |
-| `Subscription` | Subscription plans and revenue tracking  |
-| `Review`       | Movie reviews and user ratings           |
+| `User`         | User profiles and registration details   |
+| `Movie`        | Movie metadata (genre, rating, etc.)     |
+| `WatchHistory` | User viewing activity                    |
+| `Subscription` | Subscription plans and payment records   |
+| `Review`       | User-generated ratings and reviews       |
 
-> Refer to the included **[EER_Diagram.png](EER_Diagram.png)** for a detailed schema visualization.
+> 📌 Refer to **[EER_Diagram.png](EER_Diagram.png)** for a visual representation.
 
 ---
 
 ## 🗂️ Project Structure
 
 ```
-CineVerse_SQL_Analysis/
+movie-streaming-sql-analysis/
 ├── CineVerse_CreateTables.sql   # SQL schema creation (DDL)
 ├── CineVerse_Queries.sql        # SQL queries with detailed explanations
 ├── EER_Diagram.png              # Entity-Relationship Diagram
@@ -50,40 +50,44 @@ CineVerse_SQL_Analysis/
 
 ---
 
-## 📌 SQL Question Breakdown
+## 📌 SQL Query Breakdown
 
-- 4 Basic queries  
-- 5 Intermediate queries  
-- 3 Advanced queries  
+- ✅ 4 Basic queries  
+- ✅ 5 Intermediate queries  
+- ✅ 3 Advanced queries  
 
-All queries use essential SQL concepts such as `JOIN`s, `GROUP BY`, `WINDOW FUNCTIONS`, and `CTEs` with step-by-step logic.
+The queries involve key SQL concepts like:  
+- `JOIN`s & `GROUP BY`  
+- Aggregate functions  
+- Window functions (`RANK`, `ROW_NUMBER`)  
+- Common Table Expressions (CTEs)
 
-> For detailed questions, see **[Questions.pdf](Questions.pdf)**.
+> 🔍 See **[Questions.pdf](Questions.pdf)** for the problem statements.
 
 ---
 
 ## 🔧 Tools & Technologies
 
-- 💾 **MySQL** (Relational Database)  
-- 🧰 **MySQL Workbench** (Database Design & Querying)  
-- 🖼️ **EER Diagram Tool** (Schema Visualization)  
-- 📝 **SQL** (DDL, DML, and Business Intelligence Queries)  
+- 💾 **MySQL** — core relational database  
+- 🧰 **MySQL Workbench** — for modeling and querying  
+- 🧠 **SQL** — used for DDL, DML & business analysis  
+- 🖼️ **EER Diagram** — schema design visualization  
 
 ---
 
 ## 📥 How to Get Started
 
-1. Clone this repository.  
-2. Import `CineVerse_CreateTables.sql` into MySQL Workbench.  
-3. Import CSV files from `CineVerse_Dataset.zip` using the "Table Data Import Wizard".  
-4. Run queries from `CineVerse_Queries.sql` to explore insights.
+1. Clone this repository  
+2. Open `CineVerse_CreateTables.sql` in MySQL Workbench  
+3. Use the "Table Data Import Wizard" to load CSVs from `CineVerse_Dataset.zip`  
+4. Run `CineVerse_Queries.sql` to explore the insights  
 
 ---
 
 ## 👨‍💻 Author
 
 **Prabhakar Singh**  
-SQL | Data Analysis | Business Intelligence  
+SQL | Data Analytics | Business Intelligence  
 🔗 [GitHub: prabhakar-singh-g](https://github.com/prabhakar-singh-g)
 
 ---
@@ -94,5 +98,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> ✅ This project is ideal for showcasing real-world SQL analytics skills on your portfolio, resume, or for interview preparation.
-
+> ✅ **Ideal for portfolio building, resume enhancement, and interview preparation for Data Analyst / BI roles.**
